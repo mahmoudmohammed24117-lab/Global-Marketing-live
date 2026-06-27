@@ -1,0 +1,101 @@
+:root {
+    --bg-color: #020202;
+    --card-bg: #0a0a0a;
+    --up-color: #00ff88;
+    --down-color: #ff3333;
+    --accent-color: #d4af37;
+    --text-main: #ffffff;
+    --text-muted: #666666;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    margin: 0;
+    padding: 10px;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(180deg, rgba(212, 175, 55, 0.1) 0%, transparent 100%);
+    border-radius: 0 0 50px 50px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 2.2rem;
+    font-weight: 900;
+    background: linear-gradient(90deg, #d4af37, #fcf6ba, #aa771c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.live-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+}
+
+.neutral-text { color: var(--accent-color); }
+
+.dot { 
+    width: 8px; height: 8px; 
+    background: #ff0000; 
+    border-radius: 50%; 
+    animation: blink 1s infinite; 
+}
+
+@keyframes blink { 50% { opacity: 0; } }
+
+.market-table { width: 100%; border-collapse: separate; border-spacing: 0 8px; }
+
+th { color: var(--text-muted); font-weight: 400; font-size: 0.85rem; padding: 15px; }
+
+tr { background: var(--card-bg); border: 1px solid rgba(255, 255, 255, 0.05); }
+
+td {
+    padding: 18px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+
+.text-right { text-align: right !important; }
+.asset-name { color: #eee; font-size: 1.1rem; }
+
+.symbol { 
+    background: #1a1a1a; 
+    color: var(--accent-color); 
+    padding: 4px 10px; 
+    border-radius: 5px; 
+    font-size: 0.75rem; 
+}
+
+/* حالات صعود وهبوط الأسعار */
+.up { 
+    color: var(--up-color) !important; 
+    text-shadow: 0 0 15px rgba(0, 255, 136, 0.4); 
+    background: rgba(0, 255, 136, 0.05); 
+}
+
+.down { 
+    color: var(--down-color) !important; 
+    text-shadow: 0 0 15px rgba(255, 51, 51, 0.4); 
+    background: rgba(255, 51, 51, 0.05); 
+}
+/* ########################################### */
