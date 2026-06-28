@@ -1,4 +1,7 @@
 # 📈 Global Marketing Live
+## 🌐 Live Demo
+
+👉 **[View Live Demo](https://mahmoudmohammed24117-lab.github.io/Global-Marketing-live/)**
 
 A modern and responsive **Global Marketing Landing Page** built with **HTML5, CSS3, and JavaScript**. The project demonstrates a clean user interface, responsive design, and interactive web components for a professional marketing website.
 
