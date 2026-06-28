@@ -1,4 +1,4 @@
-<img width="1280" height="971" alt="image" src="https://github.com/user-attachments/assets/e35b83e2-ca3f-42b3-b363-1c6e5668c164" /># 📈 Global Marketing Live
+#📈 Global Marketing Live
 
 
 ## 🌐 Live Demo
@@ -6,7 +6,7 @@
 👉 **[View Live Demo](https://mahmoudmohammed24117-lab.github.io/Global-Marketing-live/)**
 
 
-## 📸 Preview
+### 📸 Preview
 
 <p align="center">
   <img src="home.png" alt="Project Preview" width="900">
